@@ -3,7 +3,7 @@ import time
 import random
 retryask = False
 def mem():
-    print("welkom bij Memorize sequence")
+    print("welcome to Memorize sequence")
     for x in range(5):
 
         randmin = 1000
