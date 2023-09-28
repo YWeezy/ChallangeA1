@@ -61,4 +61,4 @@ while leven > 0:
         print("Game over")
         break
 
-print("")
+print("challange completed!")
