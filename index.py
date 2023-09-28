@@ -1,1 +1,2 @@
-import galgje
+# import galgje
+import memorize
