@@ -1,4 +1,5 @@
-woorden = ["pepper","playboy","billionare"]
+lijst = ["pepper","playboy","billionare"]
+
 
 def check(letter ,woord):
   listret = []
@@ -16,11 +17,47 @@ def check(letter ,woord):
 
 
 def gal(woorden):
-  for i in range(2):
+  pogingen = 0
+  for i in range(3):
+    next = True
+    woord = woorden[i]
+    galwoord = ""
+    for s in range(len(woord)):
+      galwoord += "_"
+    print("WOORD: " + galwoord)
     
-    word = woorden[i]
     pogingen = 7
-    while pogingen < 1:
+    while pogingen > 0:
+      lettinp = input("Vul een letter in: ")
+
+      if lettinp == "/":
+        next = False
+        break
+
+      list = check(lettinp, woord)
+      if list == "none":
+        pogingen -= 1
+        print(pogingen)
+      else:
+        for a in list:
+          # print(a)
+          # print(galwoord[list[a]])
+          # print(woord[list[a]])
+          galwoord = galwoord[:a] + woord[a] + galwoord[a+1:]
+
+          # galwoord[a].replace(woord[a])
+        print("gal = " + galwoord)
+      if galwoord == woord:
+        break
+      
     
-      lettinp = input("Vul een letter in")
-      print(check(lettinp, word)
+    if pogingen < 1:
+      next = False
+      print("You Died")
+      
+    else:
+      print("Welcome")
+    if next == False:
+      break
+    
+gal(lijst)
