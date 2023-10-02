@@ -6,7 +6,7 @@ from quiz import*
 def clear_screen():
     os.system('clear')
 
-def gychoice1():
+def vochoice1():
     clear_screen()
     
     print("Vormir...")
@@ -37,10 +37,10 @@ def gychoice1():
         print("you gave up.")
         time.sleep(3)
         clear_screen()
-        gychoice1()
+        vochoice1()
 
 # Example usage:
-result = gychoice1()
+result = vochoice1()
 if result == "passage":
     print("You were granted passage!")
 else:
