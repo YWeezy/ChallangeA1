@@ -1,4 +1,4 @@
-lijst = ["pepper","playboy","billionare"]
+
 
 
 def check(letter ,woord):
@@ -56,8 +56,8 @@ def gal(woorden):
       print("You Died")
       
     else:
-      print("Welcome")
+      return "MARK DEADPOOL(Space travel)"
     if next == False:
       break
     
-gal(lijst)
+
