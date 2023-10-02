@@ -1,8 +1,9 @@
 from os import system
 import time
 import random
-retryask = False
+
 def mem():
+    retryask = False
     print("welcome to Memorize sequence")
     for x in range(5):
 

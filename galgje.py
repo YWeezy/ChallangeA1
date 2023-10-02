@@ -56,7 +56,7 @@ def gal(woorden):
       print("You Died")
       
     else:
-      print("Welcome")
+      pass
     if next == False:
       break
     

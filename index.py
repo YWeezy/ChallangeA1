@@ -1,3 +1,3 @@
-# import galgje
-# import memorize
+import galgje
+import memorize
 import riddle
