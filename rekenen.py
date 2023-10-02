@@ -1,4 +1,4 @@
-leven = 3
+leven = 1
 
 while leven > 0:
     vraag_1 = int(input('38 + 42 = '))
@@ -7,7 +7,7 @@ while leven > 0:
         print('vraag 1/5 complete')
     else:
         leven -= 1
-        print(leven)
+         
 
     if leven == 0:
         print("Game over")
@@ -19,7 +19,7 @@ while leven > 0:
         print('vraag 2/5 complete')
     else:
         leven -= 1
-        print(leven)
+         
 
     if leven == 0:
         print("Game over")
@@ -27,11 +27,11 @@ while leven > 0:
 
     vraag_3 = int(input('wat is 5 * 25 + 10 = '))
 
-    if vraag_3 == 10:
+    if vraag_3 == 135:
         print('vraag 3/5 complete')
     else:
         leven -= 1
-        print(leven)
+         
 
     if leven == 0:
         print("Game over")
@@ -43,7 +43,7 @@ while leven > 0:
         print('vraag 4/5 complete')
     else:
         leven -= 1
-        print(leven)
+         
 
     if leven == 0:
         print("Game over")
@@ -55,7 +55,7 @@ while leven > 0:
         print('vraag 5/5 complete')
     else:
         leven -= 1
-        print(leven)
+         
 
     if leven == 0:
         print("Game over")
